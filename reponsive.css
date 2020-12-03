@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+    .header-top {
+        border: none;
+        /* border-bottom: 1px solid #ccc; */
+        width: 290vw;
+        transform: translateX(100%);
+        animation: runs 10s infinite linear;
+    }
+    .header-top__item {
+        padding: 1rem 0;
+    }
+    .header-top__item:not(:first-child) {
+        border-left: none;
+    }
+    .header-top__text {
+        flex-direction: row;
+    }
+    .header-top__text--top {
+        margin-right: 1rem;
+    }
+}
